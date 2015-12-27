@@ -10,7 +10,7 @@
         <files targetEncoding="ISO-8859-1" sourceEncoding="ISO-8859-1" targetFilenamePattern="${filename}" sourceFilenameMask="*.txt1"/>
         <files targetEncoding="ISO-8859-2" sourceEncoding="ISO-8859-2" targetFilenamePattern="${filename}" sourceFilenameMask="*.txt2"/>
         <files targetEncoding="UTF-8" sourceEncoding="UTF-8" targetFilenamePattern="${filename}" sourceFilenameMask="*.utf8"/>
-        <files targetFilenamePattern="${filename}" sourceFilenameMask="*.md"/>
+        <files targetEncoding="UTF-8" sourceEncoding="UTF-8" targetFilenamePattern="${filename}" sourceFilenameMask="*.md"/>
     </filter>
     <filter enabled="false" className="org.omegat.filters3.xml.infix.InfixFilter">
         <files targetFilenamePattern="${filename}" sourceFilenameMask="*.xml"/>
