@@ -3431,6 +3431,14 @@ Once the repository is configured you're ready to install Crystal:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>## Short one-argument syntax</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153206Z" creationid="hirofumiwakasugi" creationdate="20160115T152930Z">
+        <seg>## 単一引数の場合の短縮記法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>## Short syntax form</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150907T014047Z" creationid="hirofumiwakasugi" creationdate="20150907T014047Z">
@@ -6511,6 +6519,14 @@ extra syntax to manipulate the AST nodes.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A short syntax exists for specifying a block that receives a single argument and invokes a method on it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153009Z" creationid="hirofumiwakasugi" creationdate="20160115T153009Z">
+        <seg>ブロックが単一の引数を受け取り、それに対してメソッドを実行する場合には短縮記法を利用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A slightly more interesting example is an HTTP Server:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150901T072545Z" creationid="hirofumiwakasugi" creationdate="20150901T072545Z">
@@ -7088,6 +7104,14 @@ a sequence of digits and underscores, optionally followed by a suffix.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And operators can be invoked too:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153248Z" creationid="hirofumiwakasugi" creationdate="20160115T153236Z">
+        <seg>演算子の場合も同様に実行することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And since it can't find a `talk` method on it, it errors.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150910T034605Z" creationid="hirofumiwakasugi" creationdate="20150910T034310Z">
@@ -7124,6 +7148,14 @@ a sequence of digits and underscores, optionally followed by a suffix.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151009T021531Z" creationid="hirofumiwakasugi" creationdate="20151009T021531Z">
         <seg>Arch Linux はコミュニティのリポジトリで Crystal コンパイラが提供されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Arguments can be passed to `some_method` as well:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153137Z" creationid="hirofumiwakasugi" creationdate="20160115T153137Z">
+        <seg>`some_method` に引数を渡すことも可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7507,6 +7539,14 @@ end
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151010T012155Z" creationid="hirofumiwakasugi" creationdate="20151010T012155Z">
         <seg>CURRENCIES = {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Can be written as this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153030Z" creationid="hirofumiwakasugi" creationdate="20160115T153030Z">
+        <seg>上記は以下のように書くことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10278,6 +10318,14 @@ end up in the resulting string.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Or like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153043Z" creationid="hirofumiwakasugi" creationdate="20160115T153043Z">
+        <seg>または以下のように書きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Or use `loop`, found in the standard library:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150905T052206Z" creationid="hirofumiwakasugi" creationdate="20150905T052206Z">
@@ -11095,6 +11143,14 @@ end</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150907T022454Z" creationid="hirofumiwakasugi" creationdate="20150907T020303Z">
         <seg>このとき、もし `something_dangerous_that_returns_Int32`が例外を発生させない場合であってもエラーが発生します。さらに、`a` に先に値が代入されて、それから例外を発生させる可能性があるメソッドが実行された場合であったとしてもエラーとなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The above is just syntax sugar and doesn't have any performance penalty.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153119Z" creationid="hirofumiwakasugi" creationdate="20160115T153049Z">
+        <seg>これは単なるシンタックスシュガーであり、パフォーマンス上の欠点はありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12494,6 +12550,14 @@ types defined by IEEE.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151005T044201Z" creationid="hirofumiwakasugi" creationdate="20151005T044201Z">
         <seg>これは、引数がその型のポインタである場合には、どのような型に対しても有効です (もちろん、ポインタが指す値が関数によって設定されることが前提です) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153019Z" creationid="hirofumiwakasugi" creationdate="20160115T153019Z">
+        <seg>例えば、</seg>
       </tuv>
     </tu>
     <tu>
@@ -14523,6 +14587,20 @@ crystal build your_program.cr --cross-compile "Linux x86_64" --target "x86_64-un
     <tu>
       <tuv lang="EN-US">
         <seg>```crystal
+"\u{41}"    # == "A"
+"\u{1F52E}" # == "🔮"
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153403Z" creationid="hirofumiwakasugi" creationdate="20160115T153403Z">
+        <seg>```crystal
+"\u{41}"    # == "A"
+"\u{1F52E}" # == "  "
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
 "hello</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151009T025850Z" creationid="hirofumiwakasugi" creationdate="20151009T025850Z">
@@ -14981,6 +15059,20 @@ $year = 2014
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151009T025528Z" creationid="hirofumiwakasugi" creationdate="20151009T025528Z">
         <seg>```crystal
 '\u0041' # == 'A'
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
+'\u{41}'    # == 'A'
+'\u{1F52E}' # == '🔮'
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153357Z" creationid="hirofumiwakasugi" creationdate="20160115T153357Z">
+        <seg>```crystal
+'\u{41}'    # == 'A'
+'\u{1F52E}' # == '  '
 ```</seg>
       </tuv>
     </tu>
@@ -17437,6 +17529,66 @@ macro update_x</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>```crystal
+method &amp;.+(2)
+method &amp;.[index]
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153237Z" creationid="hirofumiwakasugi" creationdate="20160115T153237Z">
+        <seg>```crystal
+method &amp;.+(2)
+method &amp;.[index]
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
+method &amp;.some_method
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153031Z" creationid="hirofumiwakasugi" creationdate="20160115T153031Z">
+        <seg>```crystal
+method &amp;.some_method
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
+method &amp;.some_method(arg1, arg2)
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153214Z" creationid="hirofumiwakasugi" creationdate="20160115T153214Z">
+        <seg>```crystal
+method &amp;.some_method
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
+method do |argument|</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153020Z" creationid="hirofumiwakasugi" creationdate="20160115T153020Z">
+        <seg>```crystal
+method do |argument|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
+method(&amp;.some_method)
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153044Z" creationid="hirofumiwakasugi" creationdate="20160115T153044Z">
+        <seg>```crystal
+method &amp;.some_method
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
 module Base64</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151009T092318Z" creationid="hirofumiwakasugi" creationdate="20151009T092318Z">
@@ -18870,6 +19022,18 @@ end
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150831T060521Z" creationid="hirofumiwakasugi" creationdate="20150831T060521Z">
         <seg>これでハックする準備は OK です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>argument.some_method
+end
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160115T153020Z" creationid="hirofumiwakasugi" creationdate="20160115T153020Z">
+        <seg>argument.some_method
+end
+```</seg>
       </tuv>
     </tu>
     <tu>
