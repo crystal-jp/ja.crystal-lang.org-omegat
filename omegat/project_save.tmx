@@ -2383,8 +2383,8 @@ end
       <tuv lang="EN-US">
         <seg># handle error ...</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151010T012228Z" creationid="hirofumiwakasugi" creationdate="20151010T011944Z">
-        <seg># ハラーハンドリング…</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160118T020615Z" creationid="hirofumiwakasugi" creationdate="20151010T011944Z">
+        <seg># エラーハンドリング…</seg>
       </tuv>
     </tu>
     <tu>
