@@ -2373,8 +2373,8 @@ end
       <tuv lang="EN-US">
         <seg># handle error ...</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151010T012228Z" creationid="hirofumiwakasugi" creationdate="20151010T011944Z">
-        <seg># ハラーハンドリング…</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160118T020615Z" creationid="hirofumiwakasugi" creationdate="20151010T011944Z">
+        <seg># エラーハンドリング…</seg>
       </tuv>
     </tu>
     <tu>
@@ -6349,8 +6349,8 @@ end
       <tuv lang="EN-US">
         <seg>A class inherits all instance variables and all instance and class methods of a superclass, including its constructors (`new` and `initialize`).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150910T023714Z" creationid="hirofumiwakasugi" creationdate="20150910T023523Z">
-        <seg>クラスを継承したとき、すべてのインスタンス変数、およびインスタンスメソッドとクラスメソッドがスーパースラスから引き継がれます。その中にはコンストラクタ (`new` と `initialize`) も含まれます。</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160119T161616Z" creationid="hirofumiwakasugi" creationdate="20150910T023523Z">
+        <seg>クラスを継承したとき、すべてのインスタンス変数、およびインスタンスメソッドとクラスメソッドがスーパークラスから引き継がれます。その中にはコンストラクタ (`new` と `initialize`) も含まれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8149,8 +8149,8 @@ Foo.new.yield_normally { one }  # =&gt; "one"
       <tuv lang="EN-US">
         <seg>For example, the standard library includes a `times` method on integers, allowing you to write:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150916T031807Z" creationid="hirofumiwakasugi" creationdate="20150916T031807Z">
-        <seg>例えば、標準ライブラリには `time` という整数のメソッドがあり、それを使うと以下のように書くことができます。</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160119T161541Z" creationid="hirofumiwakasugi" creationdate="20150916T031807Z">
+        <seg>例えば、標準ライブラリには `times` という整数のメソッドがあり、それを使うと以下のように書くことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13072,8 +13072,8 @@ by joining multiple literals with a backslash:</seg>
       <tuv lang="EN-US">
         <seg>Use the `init` command to create a Crystal project with the standard directory structure.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150901T072144Z" creationid="hirofumiwakasugi" creationdate="20150901T072144Z">
-        <seg>`init` コマンドを使用すると、標準的なディレクトリ構成を持った Crystal プロジェクトを作成おすることができます。</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160119T161946Z" creationid="hirofumiwakasugi" creationdate="20150901T072144Z">
+        <seg>`init` コマンドを使用すると、標準的なディレクトリ構成を持った Crystal プロジェクトを作成することができます。</seg>
       </tuv>
     </tu>
     <tu>
