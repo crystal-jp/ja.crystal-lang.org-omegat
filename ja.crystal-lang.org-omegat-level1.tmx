@@ -13826,8 +13826,8 @@ end
       <tuv lang="EN-US">
         <seg>You can use a backslash followed by an *u* and four hexadecimal characters to denote a unicode codepoint written:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150901T080733Z" creationid="hirofumiwakasugi" creationdate="20150901T075458Z">
-        <seg>「*u*」に続けてバックスラッシュと16進数で4つの数値を入力することでコードポイントを示すこともできます。</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160120T094448Z" creationid="hirofumiwakasugi" creationdate="20150901T075458Z">
+        <seg>バックスラッシュと「*u*」に続けて16進数で4つの数値を入力することでコードポイントを示すこともできます。</seg>
       </tuv>
     </tu>
     <tu>
