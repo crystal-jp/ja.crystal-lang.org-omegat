@@ -1462,6 +1462,16 @@ loop do</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># Same as "  Hello\n    world"
+&lt;&lt;-STRING</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T062401Z" creationid="hirofumiwakasugi" creationdate="20160204T062401Z">
+        <seg># "  Hello\n    world" と同じ
+&lt;&lt;-STRING</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># Same as:
 temp1 = "John"
 temp2 = 32
@@ -2081,6 +2091,54 @@ ary2 = ary.map { |x| x as Int32 | Float64 }</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># a : Int32
+else</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061719Z" creationid="hirofumiwakasugi" creationdate="20160204T061719Z">
+        <seg># a : Int32
+else</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># a : Int32 | String</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T062429Z" creationid="hirofumiwakasugi" creationdate="20160204T062429Z">
+        <seg># a : Int32 | String</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># a : Int32 | String
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061348Z" creationid="hirofumiwakasugi" creationdate="20160204T061348Z">
+        <seg># a : Int32 | String
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># a : String</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061712Z" creationid="hirofumiwakasugi" creationdate="20160204T061712Z">
+        <seg># a : String</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># a : String
+end
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061720Z" creationid="hirofumiwakasugi" creationdate="20160204T061720Z">
+        <seg># a : String
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># a :: Int32
 else</seg>
       </tuv>
@@ -2267,6 +2325,14 @@ end</seg>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150906T113108Z" creationid="hirofumiwakasugi" creationdate="20150906T113108Z">
         <seg># do something...
 end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># e : String</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061715Z" creationid="hirofumiwakasugi" creationdate="20160204T061715Z">
+        <seg># e : String</seg>
       </tuv>
     </tu>
     <tu>
@@ -2951,6 +3017,22 @@ end
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># var : Int32</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061605Z" creationid="hirofumiwakasugi" creationdate="20160204T061605Z">
+        <seg># var : Int32</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># var : String</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061551Z" creationid="hirofumiwakasugi" creationdate="20160204T061551Z">
+        <seg># var : String</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># var :: Int32</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151001T010029Z" creationid="hirofumiwakasugi" creationdate="20151001T010029Z">
@@ -3195,6 +3277,14 @@ end
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150901T143020Z" creationid="hirofumiwakasugi" creationdate="20150901T143020Z">
         <seg>## ハッシュライクな型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## Heredoc</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061749Z" creationid="hirofumiwakasugi" creationdate="20160204T061749Z">
+        <seg>## ヒアドキュメント</seg>
       </tuv>
     </tu>
     <tu>
@@ -3501,6 +3591,14 @@ Once the repository is configured you're ready to install Crystal:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150919T072358Z" creationid="hirofumiwakasugi" creationdate="20150919T072358Z">
         <seg>## ThreadLocal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## Troubleshooting on OSX 10.11 (El Capitan)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061015Z" creationid="hirofumiwakasugi" creationdate="20160204T061015Z">
+        <seg>## OSX 10.11 (El Capitan) での注意</seg>
       </tuv>
     </tu>
     <tu>
@@ -5801,6 +5899,20 @@ end
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;child /&gt;
+&lt;/parent&gt;
+XML
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061832Z" creationid="hirofumiwakasugi" creationdate="20160204T061832Z">
+        <seg>&lt;child /&gt;
+&lt;/parent&gt;
+XML
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>@@counter</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150910T041159Z" creationid="hirofumiwakasugi" creationdate="20150910T041159Z">
@@ -6117,6 +6229,14 @@ end
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150906T035032Z" creationid="hirofumiwakasugi" creationdate="20150906T035032Z">
         <seg>@x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A "heredoc" is written with `&lt;&lt;-IDENT`, where `IDENT` is an identifier, a sequence of letters and numbers that must start with a letter.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T062113Z" creationid="hirofumiwakasugi" creationdate="20160204T061927Z">
+        <seg>ヒアドキュメントは `&lt;&lt;-IDENT` のように書きます。`IDENT` というのは識別子であり、文字と数字の並びによって構成されます。ただし、識別子の最初は文字で開始する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6461,6 +6581,14 @@ end
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150901T072402Z" creationid="hirofumiwakasugi" creationdate="20150901T072358Z">
         <seg>また、コメントの `::` は、変数の型を示すために利用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A comment using `:` is used for showing the type of a variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061331Z" creationid="hirofumiwakasugi" creationdate="20160204T061331Z">
+        <seg>また、コメントの `:` は、変数の型を示すために利用されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7645,6 +7773,26 @@ end
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C.waitpid(pid, out status_ptr, options)
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061447Z" creationid="hirofumiwakasugi" creationdate="20160204T061447Z">
+        <seg>C.waitpid(pid, out status_ptr, options)
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C.waitpid(pid, pointerof(status_ptr), options)
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061441Z" creationid="hirofumiwakasugi" creationdate="20160204T061405Z">
+        <seg>C.waitpid(pid, pointerof(status_ptr), options)
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>CURRENCIES = {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151010T012155Z" creationid="hirofumiwakasugi" creationdate="20151010T012155Z">
@@ -8457,6 +8605,14 @@ end</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>HTTP::Server.new(8080) do |context|</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061326Z" creationid="hirofumiwakasugi" creationdate="20160204T061326Z">
+        <seg>HTTP::Server.new(8080) do |context|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>HTTP::Server.new(8080) do |request|</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150901T072642Z" creationid="hirofumiwakasugi" creationdate="20150901T072642Z">
@@ -8481,6 +8637,15 @@ end
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150916T033049Z" creationid="hirofumiwakasugi" creationdate="20150916T033005Z">
         <seg>コードの読みやすさや再利用性のために積極的にブロックを利用しましょう。それが実行時のパフォーマンスに影響することはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hello</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T062353Z" creationid="hirofumiwakasugi" creationdate="20160204T062353Z">
+        <seg>encode64 "hello" #=&gt; "aGVsbG8="
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -9061,6 +9226,14 @@ in which the number fits:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150910T023456Z" creationid="hirofumiwakasugi" creationdate="20150910T023444Z">
         <seg>継承元を明示的に指定せず定義した場合、クラスであれば `Reference` を、構造体であれば `Struct` がスーパークラスになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you get an error like:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061035Z" creationid="hirofumiwakasugi" creationdate="20160204T061024Z">
+        <seg>以下のエラーが発生することがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9874,6 +10047,14 @@ characters, you can use alternative literals:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150916T011443Z" creationid="hirofumiwakasugi" creationdate="20150916T011402Z">
         <seg>クラスや構造体と同様に、Enum にもメソッドを定義することが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Leading whitespace is removing from the heredoc contents according to the number of whitespace that this last `IDENT` has.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T062351Z" creationid="hirofumiwakasugi" creationdate="20160204T062144Z">
+        <seg>ヒアドキュメントでは、終端の `IDENT` に指定されている先頭の空白の数にしたがって、ヒアドキュメントの内容から先頭の空白が削除されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10853,6 +11034,23 @@ end</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>STRING</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T062354Z" creationid="hirofumiwakasugi" creationdate="20160204T062354Z">
+        <seg>String |</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>STRING
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T062415Z" creationid="hirofumiwakasugi" creationdate="20160204T062415Z">
+        <seg>String |</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Second, `allocate` is a low-level class method that creates an uninitialized object of the given type.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150906T033526Z" creationid="hirofumiwakasugi" creationdate="20150904T060528Z">
@@ -11180,6 +11378,14 @@ end</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150906T121039Z" creationid="hirofumiwakasugi" creationdate="20150906T120906Z">
         <seg>したがって、最終的にこのインスタンスのサイズは 8 ではなく 12 となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The "heredoc" finishes in the line that starts with `IDENT`, ignoring leading whitespace.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T062152Z" creationid="hirofumiwakasugi" creationdate="20160204T062108Z">
+        <seg>ヒアドキュメントは `IDENT` から始まる行で終わります。このとき、先頭の空白は無視されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12073,6 +12279,14 @@ a `def` without a matching `end`, or a single `when` expression of a
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The type after the `uninitialized` keyword follows the [type grammar](type_grammar.html).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061700Z" creationid="hirofumiwakasugi" creationdate="20160204T061700Z">
+        <seg>`uninitialized` キーワードに続く型は[型文法](type_grammar.html)にしたがって書きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The type after the two colons (`::`) follows the [type grammar](type_grammar.html).</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150906T120341Z" creationid="hirofumiwakasugi" creationdate="20150906T115851Z">
@@ -12899,6 +13113,14 @@ types defined by IEEE.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151007T050313Z" creationid="hirofumiwakasugi" creationdate="20151007T050218Z">
         <seg>このように初期化されることを避けたい場合は、`::` を利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To avoid this initialization you can use `uninitialized`:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061506Z" creationid="hirofumiwakasugi" creationdate="20160204T061457Z">
+        <seg>このように初期化されることを避けたい場合は、`uninitialized` を利用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13957,6 +14179,14 @@ end
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also use a "heredoc" for creating string:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061829Z" creationid="hirofumiwakasugi" creationdate="20160204T061823Z">
+        <seg>文字列はヒアドキュメント (heredoc) を使って生成することも可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also use a string as a name if the name is not a valid identifier or type name:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151005T041701Z" creationid="hirofumiwakasugi" creationdate="20151005T041505Z">
@@ -14001,6 +14231,14 @@ end
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150905T095249Z" creationid="hirofumiwakasugi" creationdate="20150905T093313Z">
         <seg>その場合は、`::` を使って型を指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can do this with `:`:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061734Z" creationid="hirofumiwakasugi" creationdate="20160204T061734Z">
+        <seg>その場合は、`:` を使って型を指定できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14592,6 +14830,20 @@ $ crystal some_program.cr
     <tu>
       <tuv lang="EN-US">
         <seg>```
+$ xcode-select --install
+$ xcode-select --switch /Library/Developer/CommandLineTools
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061245Z" creationid="hirofumiwakasugi" creationdate="20160204T061245Z">
+        <seg>```
+$ xcode-select --install
+$ xcode-select --switch /Library/Developer/CommandLineTools
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```
 * You can define [local variables](../syntax_and_semantics/local_variables.html) without the need to specify their type:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150901T072614Z" creationid="hirofumiwakasugi" creationdate="20150901T072614Z">
@@ -14736,6 +14988,18 @@ git clone https://github.com/manastech/crystal.git
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150831T060510Z" creationid="hirofumiwakasugi" creationdate="20150831T060510Z">
         <seg>```
 git clone https://github.com/manastech/crystal.git
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```
+ld: library not found for -levent
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061025Z" creationid="hirofumiwakasugi" creationdate="20160204T061025Z">
+        <seg>```
+ld: library not found for -levent
 ```</seg>
       </tuv>
     </tu>
@@ -15247,6 +15511,18 @@ $values = [] of Int32
 @[ThreadLocal]
 $values = [] of Int32
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
+# Same as "Hello\n  world"
+&lt;&lt;-STRING</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T062422Z" creationid="hirofumiwakasugi" creationdate="20160204T062352Z">
+        <seg>```crystal
+# "Hello\n  world" と同じ
+&lt;&lt;-STRING</seg>
       </tuv>
     </tu>
     <tu>
@@ -15771,6 +16047,18 @@ Unicorn.new.speak #=&gt; "I'm a unicorn"
         <seg>```crystal
 :hello
 :good_bye</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
+&lt;&lt;-XML
+&lt;parent&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061831Z" creationid="hirofumiwakasugi" creationdate="20160204T061831Z">
+        <seg>```crystal
+&lt;&lt;-XML
+&lt;parent&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -16475,6 +16763,18 @@ a = if 2 &gt; 1</seg>
       <tuv lang="EN-US">
         <seg>```crystal
 a = some_condition ? 1 : "hello"
+# a : Int32 | String</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061718Z" creationid="hirofumiwakasugi" creationdate="20160204T061718Z">
+        <seg>```crystal
+a = some_condition ? 1 : "hello"
+# a : Int32 | String</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
+a = some_condition ? 1 : "hello"
 # a :: Int32 | String</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151009T024658Z" creationid="hirofumiwakasugi" creationdate="20151009T024658Z">
@@ -16830,6 +17130,18 @@ buffer :: UInt8[256]
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151009T024033Z" creationid="hirofumiwakasugi" creationdate="20151009T024033Z">
         <seg>```crystal
 buffer :: UInt8[256]
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
+buffer = uninitialized UInt8[256]
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061644Z" creationid="hirofumiwakasugi" creationdate="20160204T061644Z">
+        <seg>```crystal
+buffer = uninitialized UInt8[256]
 ```</seg>
       </tuv>
     </tu>
@@ -18296,6 +18608,20 @@ status_ptr :: Int32</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>```crystal
+pid = ...
+options = ...
+status_ptr = uninitialized Int32</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061355Z" creationid="hirofumiwakasugi" creationdate="20160204T061355Z">
+        <seg>```crystal
+pid = ...
+options = ...
+status_ptr = uninitialized Int32</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
 proc = -&gt;(x : Int32, y : Int32) { x + y }
 proc.call(1, 2) #=&gt; 3
 ```</seg>
@@ -18429,6 +18755,20 @@ require "http/server"</seg>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151009T021810Z" creationid="hirofumiwakasugi" creationdate="20151009T021810Z">
         <seg>```crystal
 require "http/server"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
+s = "hello"
+# s : String
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061336Z" creationid="hirofumiwakasugi" creationdate="20160204T061336Z">
+        <seg>```crystal
+s = "hello"
+# s : String
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -18750,6 +19090,20 @@ tz.dst_time     #=&gt; 2
     <tu>
       <tuv lang="EN-US">
         <seg>```crystal
+tz = uninitialized C::TimeZone
+tz.minutes_west #=&gt; some garbage value
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061532Z" creationid="hirofumiwakasugi" creationdate="20160204T061509Z">
+        <seg>```crystal
+tz = uninitialized C::TimeZone
+tz.minutes_west #=&gt; 何かゴミの値
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
 unless some_condition</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20151009T140000Z" creationid="hirofumiwakasugi" creationdate="20151009T140000Z">
@@ -18832,6 +19186,20 @@ value #=&gt; nil
         <seg>```crystal
 value = twice { break }
 value #=&gt; nil
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
+value = uninitialized U::IntOrFlaot
+value.some_int #=&gt; some garbage value
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061547Z" creationid="hirofumiwakasugi" creationdate="20160204T061547Z">
+        <seg>```crystal
+value = uninitialized U::IntOrFlaot
+value.some_int #=&gt; 何かゴミの値
 ```</seg>
       </tuv>
     </tu>
@@ -18923,6 +19291,20 @@ foo do</seg>
         <seg>```crystal
 x = 1
 foo do</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```crystal
+x = uninitialized Int32
+x #=&gt; some random value, garbage, unreliable
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061639Z" creationid="hirofumiwakasugi" creationdate="20160204T061639Z">
+        <seg>```crystal
+x = uninitialized Int32
+x #=&gt; 何かのランダムな値。つまり信頼できないゴミのようなもの…
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -23084,6 +23466,18 @@ ensure</seg>
       <tuv lang="EN-US">
         <seg>a = true
 end
+# a : String | Bool</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061706Z" creationid="hirofumiwakasugi" creationdate="20160204T061706Z">
+        <seg>a = true
+end
+# a : String | Bool</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a = true
+end
 # a :: String | Bool</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150903T011256Z" creationid="hirofumiwakasugi" creationdate="20150903T011256Z">
@@ -23137,6 +23531,34 @@ end
         <seg>a.length
 end
 # a :: String | Int32
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a.size
+end
+# a : Int32 | String
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T062433Z" creationid="hirofumiwakasugi" creationdate="20160204T062433Z">
+        <seg>a.size
+end
+# a : Int32 | String
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a.size
+end
+# a : String | Int32
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061713Z" creationid="hirofumiwakasugi" creationdate="20160204T061713Z">
+        <seg>a.size
+end
+# a : String | Int32
 ```</seg>
       </tuv>
     </tu>
@@ -23414,6 +23836,18 @@ ary2 &lt;&lt; 1.5 # OK
       <tuv lang="EN-US">
         <seg>b = "hello"
 end
+# b : Int32 | String</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061707Z" creationid="hirofumiwakasugi" creationdate="20160204T061707Z">
+        <seg>b = "hello"
+end
+# b : Int32 | String</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>b = "hello"
+end
 # b :: Int32 | String</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150903T011256Z" creationid="hirofumiwakasugi" creationdate="20150903T011256Z">
@@ -23644,6 +24078,18 @@ end
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150901T072215Z" creationid="hirofumiwakasugi" creationdate="20150901T072215Z">
         <seg>build                    compile program file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>c = "hello"
+end
+# c : Int32 | String</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061709Z" creationid="hirofumiwakasugi" creationdate="20160204T061709Z">
+        <seg>c = "hello"
+end
+# c : Int32 | String</seg>
       </tuv>
     </tu>
     <tu>
@@ -23952,6 +24398,34 @@ end</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>context.response.content_type = "text/plain"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061318Z" creationid="hirofumiwakasugi" creationdate="20160204T061318Z">
+        <seg>context.response.content_type = "text/plain"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>context.response.print "Hello world! The time is #{Time.now}"
+end</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061322Z" creationid="hirofumiwakasugi" creationdate="20160204T061322Z">
+        <seg>context.response.print "Hello world! The time is #{Time.now}"
+end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>context.response.print "Hello world, got #{context.request.path}!"
+end</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T062437Z" creationid="hirofumiwakasugi" creationdate="20160204T062437Z">
+        <seg>context.response.print "Hello world, got #{context.request.path}!"
+end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>create  MyCoolLib/.gitignore</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150901T072145Z" creationid="hirofumiwakasugi" creationdate="20150901T072145Z">
@@ -24065,6 +24539,20 @@ person.age #=&gt; 28
         <seg>current_age &lt; 20 ? 10 : 30
 end
 person.age #=&gt; 28
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>d = 1
+end
+# d : Int32 | Nil
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061710Z" creationid="hirofumiwakasugi" creationdate="20160204T061710Z">
+        <seg>d = 1
+end
+# d : Int32 | Nil
 ```</seg>
       </tuv>
     </tu>
@@ -27042,6 +27530,16 @@ end
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ptr = PInt32.malloc(1) # : Pointer(Int32)
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061341Z" creationid="hirofumiwakasugi" creationdate="20160204T061339Z">
+        <seg>ptr = PInt32.malloc(1) # : Pointer(Int32)
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ptr = PInt32.malloc(1) # :: Pointer(Int32)
 ```</seg>
       </tuv>
@@ -27618,6 +28116,20 @@ rescue ex : MyException</seg>
       <tuv lang="EN-US">
         <seg>return
 end
+# e : Int32
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061716Z" creationid="hirofumiwakasugi" creationdate="20160204T061716Z">
+        <seg>return
+end
+# e : Int32
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return
+end
 # e :: Int32
 ```</seg>
       </tuv>
@@ -27718,6 +28230,14 @@ end
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150901T072615Z" creationid="hirofumiwakasugi" creationdate="20150901T072615Z">
         <seg>server = HTTP::Server.new ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>server = HTTP::Server.new(8080) do |context|</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061318Z" creationid="hirofumiwakasugi" creationdate="20160204T061318Z">
+        <seg>server = HTTP::Server.new(8080) do |context|</seg>
       </tuv>
     </tu>
     <tu>
@@ -28248,6 +28768,14 @@ end</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>world</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T062353Z" creationid="hirofumiwakasugi" creationdate="20160204T062353Z">
+        <seg>world, \</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>world" # same as "hello\n      world"
 ```</seg>
       </tuv>
@@ -28340,6 +28868,32 @@ end</seg>
       <tuv lang="EN-US">
         <seg>x = "hello"
 end
+x # : Int32 | String</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061614Z" creationid="hirofumiwakasugi" creationdate="20160204T061614Z">
+        <seg>x = "hello"
+end
+x # : Int32 | String</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x = "hello"
+end
+x # : Int32 | String
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061611Z" creationid="hirofumiwakasugi" creationdate="20160204T061611Z">
+        <seg>x = "hello"
+end
+x # : Int32 | String
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x = "hello"
+end
 x # :: Int32 | String</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150918T055059Z" creationid="hirofumiwakasugi" creationdate="20150918T055059Z">
@@ -28359,6 +28913,30 @@ x # :: Int32 | String
         <seg>x = "hello"
 end
 x # :: Int32 | String
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x = 'a'
+x # : Char
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061617Z" creationid="hirofumiwakasugi" creationdate="20160204T061617Z">
+        <seg>x = 'a'
+x # : Char
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x = 'a'
+x # : Int32 | String | Char
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061619Z" creationid="hirofumiwakasugi" creationdate="20160204T061619Z">
+        <seg>x = 'a'
+x # : Int32 | String | Char
 ```</seg>
       </tuv>
     </tu>
@@ -28606,6 +29184,14 @@ end</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20150917T025544Z" creationid="hirofumiwakasugi" creationdate="20150917T025544Z">
         <seg>yield x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>you need to reinstall the command line tools and then select the default active toolchain:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20160204T061307Z" creationid="hirofumiwakasugi" creationdate="20160204T061241Z">
+        <seg>この場合、Command Line Tools を再インストールした後、デフォルトのツールチェインを選択する必要がありあります。</seg>
       </tuv>
     </tu>
     <tu>
